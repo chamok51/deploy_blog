@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/api/"
+  "proxy": "https://deploy-blog-2hqwbn2dd-chamok51.vercel.app/api/"
 }
