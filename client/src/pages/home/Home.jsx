@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get('/posts' + search)
+      const res = await axios.get('https://deploy-blog-2hqwbn2dd-chamok51.vercel.app/api/posts' + search)
       setPosts(res.data)
     }
     fetchPost()
