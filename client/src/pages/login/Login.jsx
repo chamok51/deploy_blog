@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault()
     dispatch({ type: 'LOGIN_START' })
     try {
-      const res = await axios.post('/auth/login', {
+      const res = await axios.post('https://deploy-blog-2hqwbn2dd-chamok51.vercel.app/api/auth/login', {
         username: userRef.current.value,
         password: passwordRef.current.value,
       })
