@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <TopBar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' exact element={<Home />} />
           <Route path='/postdetails/:id' element={<PostDetails />} />
           <Route path='/login' element={user ? <Home /> : <Login />} />
           <Route path='/register' element={user ? <Home /> : <Register />} />
