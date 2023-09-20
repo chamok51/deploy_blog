@@ -1,0 +1,70 @@
+.settings {
+  display: flex;
+}
+.settingsWrapper {
+  flex: 9;
+}
+.settingsTitle {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settingsUpdateTitle {
+  font-size: 26px;
+  color: chocolate;
+}
+.settingsDeleteTitle {
+  font-size: 14px;
+  color: red;
+  cursor: pointer;
+}
+.settingsDP {
+  display: flex;
+  align-items: center;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.settingsDP > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+.settingsDPIcon {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px solid teal;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: ;
+}
+
+.settingsForm > label {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.settingsForm > input {
+  padding: 10px 5px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.settingsButton {
+  font-size: 16px;
+  border: none;
+  color: white;
+  background-color: teal;
+  align-self: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  width: 100px;
+}
