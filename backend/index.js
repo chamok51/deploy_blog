@@ -12,7 +12,7 @@ const path = require('path')
 
 app.use(express.json())
 app.use(cors({
-  origin: [],
+  origin: ["https://deploy-blog-j8is.vercel.app"],
   methods: ["GET", "POST"],
   credentitals: true
 }))
